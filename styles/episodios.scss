@@ -1,0 +1,148 @@
+.section-b {
+    position: relative;
+    margin-top: 24px;;
+    z-index: -1;
+}
+
+.player-wrapper {
+    position: relative;
+    margin: 0;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    border: solid transparent 3px;
+    height: 100%;
+    width: 100%;
+    transform: skew(0deg, -7deg);
+    padding-bottom: 143.5px;
+}
+
+
+.player-title{
+    position: relative;
+    font-family: $fnt-primary;
+    color: $clr-light;
+    font-size: 36px;
+    margin-top: 64px;
+    margin-left: 16px;
+    transform: skew(0deg, 7deg);
+}
+.players {
+    margin-top: 21px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    transform: skew(0deg, 7deg);
+}
+.item {
+    height: 225px;
+    margin-left: 11px;
+    margin-right: 11px;
+}
+
+@media only screen and (min-width: 320px) {
+    .item{
+        width: 320px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 11px;
+    }
+}
+
+@media only screen and (min-width:576px) {    
+    .item {
+        width: 554px;
+        height: 225px;
+        margin-left: 11px;
+        margin-bottom: 11px;
+    }
+    
+}
+
+@media only screen and (min-width:768px) {
+    
+    .player-title {
+        font-size: 36px;
+        line-height: 52px;
+        margin-top:100px;
+        margin-left:100px;
+    }
+
+    .item {
+        width: 584px;
+        height: 225px;
+        margin-left: 32px;
+        margin-bottom: 32px;
+    }
+    
+
+}
+
+@media only screen and (min-width: 828px) {
+    .item {
+        width: 584px;
+        height: 225px;
+        margin-bottom: 32px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media only screen and(min-width: 1024px) {
+    .player-title {
+        font-size: 48px;
+        line-height: 62px;
+        margin-top: 120px;
+        margin-left: 200px;
+    }
+
+
+    .item {
+        width: 417px;
+        height: 225px;
+        margin-left: 72px;
+        margin-right: 0px;
+        margin-bottom: 72px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .player-title{
+        margin-left: 200px;
+    }
+    
+    .item {
+        width: 470px;
+        height: 225px;
+        margin-right: 0;
+        margin-bottom: 72px;
+        margin-left: 72px;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .players{
+        justify-content: center;
+    }
+
+    .item {
+        width: 561px;
+        height: 225px;
+        margin-left: 72px;
+        margin-bottom: 72px;
+    }    
+}
+
+@media only screen and (min-width: 1440px) {
+    .player-title {
+        margin-top: 120px;
+        margin-left: 200px;
+    }
+
+    .item {
+        width: 603px;
+        height: 225px;
+        margin-left: 72px;
+        margin-bottom: 72px;
+    }
+}
